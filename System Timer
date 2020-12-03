@@ -1,0 +1,14 @@
+[Unit]
+AssertPathExists=/lib/systemd/system/checkIP.service
+AssertFileNotEmpty=/lib/systemd/system/checkIP.service
+After=network.target
+Description=Timer that manage the script that checks the public IP of the router
+
+[Timer]
+OnBootSec=1us
+OnUnitActiveSec=10min
+Unit=checkIP.service
+
+[Install]
+Alias=checkip.timer
+WantedBy=multi-user.target timers.target
