@@ -1,8 +1,8 @@
 #!/bin/sh
 echo "\033[0;34mOra controllo gli aggiornamenti\033[m"
-apt update -y
+sudo apt update -y
 echo "\033[0;34mOra controllo che gli aggiornamenti, se ci sono, vengano installati\033[m"
-apt upgrade -y
+sudo apt upgrade -y
 
 echo "\033[0;34mOra installo python3, mariadb-server, apache2 e samba\033[m"
 apt install python3 -y
