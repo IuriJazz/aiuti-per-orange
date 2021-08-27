@@ -1,0 +1,23 @@
+https://www.liquidweb.com/kb/configure-apache-virtual-hosts-ubuntu-18-04/
+https://askubuntu.com/questions/450211/apache-shows-index-of-instead-of-default-index-html
+
+
+Il primo sito è molto completo e competente, dovresti prenderlo più volte in considerazione.
+
+Molto utili perchè mi hanno spiegato per bene come utilizzare apache2 per fare più siti in contemporanea.
+
+in sostanza bisogna fare ciò:
+1) creare spazio di lavoro, tanti quanti i domini, in /var/www/[nomedominio.com]/main_html
+2) copiare il file /etc/apache2/sites-available/000-default.conf e incollarlo nella stessa cartella ma modificando il nome in [nomedominio.com].conf
+2.1) per un check lancia il codice: ls /etc/apache2/sites-available
+3) modificare /etc/apache2/sites-available/[nomedominio.com].conf con una serie di dati indispensabili:
+  a) ServerAdmin (lascialo invariato)
+  b) ServerName [nomedominio.com]
+  c) ServerAlias www.[nomedominio.com]
+  d) DocumentRoot /var/www/[nomedominio.com]/main_html
+4) disabilitare il 000-default.conf con questo comando: a2dissite 000-default.conf
+5) abilitare il .conf degli altri domini con questo comando: a2ensite [nomedominio.com].conf
+6) restartare apache2: systemctl restart apache2
+
+
+molto importante non sbagliare nulla, altrimenti non funge un tubo.
