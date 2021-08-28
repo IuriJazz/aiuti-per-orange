@@ -1,0 +1,17 @@
+https://adrianmejia.com/how-to-set-up-samba-in-ubuntu-linux-and-access-it-in-mac-os-and-windows/
+
+Molto buono:
+
+1) installa samba - sudo apt install samba
+2) crea una cartella in cui vuoi mettere la cartella condivisa - [esempio] /home/network/
+3) dai i permessi alla cartella - sudo chmod 0777 [directory] - [esempio] sudo chmod 0777 /home/network
+2) modifica il .conf di samba - nano /etc/samba/smb.conf
+  aggiungici i tuoi dati:
+    #[nome commento]
+    [Nome Cartella]
+    commento = [commento]
+    path = [directory di dove vuoi metterci la certella] - [esempio] /home/network
+    read only = no
+    guest ok = yes    
+5) riavvia samba - /etc/init.d/smbd restart
+6) collegati alla tua directory in lan!
