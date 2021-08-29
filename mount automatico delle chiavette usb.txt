@@ -1,0 +1,7 @@
+https://www.tutorialspoint.com/how-to-mount-usb-drive-in-a-linux-system
+
+https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux
+
+molto utile per render tutto montato automaticamente.
+
+[devo scrivere i passaggi]
