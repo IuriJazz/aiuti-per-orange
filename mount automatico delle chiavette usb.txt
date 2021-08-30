@@ -4,4 +4,16 @@ https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux
 
 molto utile per render tutto montato automaticamente.
 
-[devo scrivere i passaggi]
+Innanzitutto devo fare un check di due importanti fattori: lsblk, che mi mostra tutte le chiavette e simili; lsblk -f, che mi permette di vedere gli UUID di ogni usb e simili.
+
+Individuata l'esatta posizione della chiavetta come /dev/sba, bisogna procedere come segue:
+1) formattiamo la chiavetta - mkfs.ext4 [o estensione desiderata] /dev/sda [o directory esatta della chiavetta]
+2) create una cartella per montarci le chiavette - generalmente si usa la directory /mnt - quindi inviate - mkdir /mnt/[nome_cartella_mount]
+3) ora bisogna impostare l'avvio automatico della chiavetta in quella esatta cartella dove si vuole montarla:
+  a) nano /etc/fstab - bisogna aggiungere alla fine i seguenti dati in questa maniera: UUID=<uuid-of-your-drive>  <mount-point>  <file-system-type>  <mount-option>  <dump>  <pass>
+    [es.] UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx /mnt/[nome_cartella_mount]  ext4 [o format esatto della chiavetta]  defaults  0 2
+  b) chiudete e salvate il file
+4) ora avvia il comando - mount -a
+
+bene ora ogni volta che riavvierai il server ubuntu si monterà in automatico la chiavetta con quell'esatto UUID.
+
