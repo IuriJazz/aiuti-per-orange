@@ -1,3 +1,5 @@
+https://foxbits.dev/article/what-bash-alias-and-how-add-one-ubuntu-2004/14
+
 Come creare un alias su ubuntu server:
 
 abbiamo due metodi: uno temporaneo e uno permanente
