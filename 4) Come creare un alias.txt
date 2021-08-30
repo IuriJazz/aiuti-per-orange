@@ -1,0 +1,25 @@
+Come creare un alias su ubuntu server:
+
+abbiamo due metodi: uno temporaneo e uno permanente
+
+FUNZIONE DELL'ALIAS:
+- alias MY_ALIAS_NAME='My_Command'
+- alias MY_ALIAS_NAME='My_Command Argument_1, Argument_2 ...'
+- alias MY_ALIAS_NAME='My_Command_1; My_Command_2'
+- alias MY_ALIAS_NAME='/PATH/TO/A/SCRIPT'
+
+Questi sono tutti i modi in cui possiamo utilizzare un alias.
+
+
+TEMPORANEO:
+
+- semplicemente imposta il tuo alias! [attento però, è solo temporaneo!]
+  - alias [nome_alias]='{comando/i_necessario/i}
+  
+  
+PERMANENTE (leggermente più complesso):
+
+- per poter impostarlo che funzioni sempre anche quando si riaccende il dispositivo, bisogna cambiare un file:
+  a) nano ~/.bashrc
+  b) vai sul fondo e aggiungi il tuo alias come quello temporaneo seguendo le funzioni come sopra - alias [nome_alias]='{comando/i_necessario/i}
+- riavvia il dispositivo e hai finito! ora hai il tuo nuovo alias!
