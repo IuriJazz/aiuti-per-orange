@@ -5,3 +5,12 @@ Ti spiega, questo sito, come navigare tra le cartelle e fare le operazioni base 
 è importantissimo e utilissimo. Approfittane.
 
 [devo scrivere bene bene i tasti di navigazione]
+
+
+se logout ti manda: there are stopped jobs
+
+procedi così:
+
+- fg --> ti vengono fuori i processi non terminati
+- ps aux | grep [USERNAME] --> ti vengono fuori tutti i processi (che volendo puoi chiudere con kill)
+- fai logout (e finalmente)
