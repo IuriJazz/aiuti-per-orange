@@ -14,3 +14,10 @@ procedi così:
 - fg --> ti vengono fuori i processi non terminati
 - ps aux | grep [USERNAME] --> ti vengono fuori tutti i processi (che volendo puoi chiudere con kill)
 - fai logout (e finalmente)
+
+
+
+https://askubuntu.com/questions/433470/how-to-show-the-full-path-of-a-file-or-directory-in-the-terminal
+
+Se hai bisogno di sapere la path assoluta di dove sei, devi semplicemente digitare:
+pwd
