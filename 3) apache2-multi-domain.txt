@@ -30,7 +30,9 @@ Se si vuole cambiare totalmente la directory (mettiamo esempio una chiavetta), b
 A) Innanzitutto bisogna stare molto attenti a creare lo spazio lavoro [1] nella directory interessata [esempio: /mnt/sda]
 B) Nel file copiato e modificato per il dominio [2], si deve modificare anche lì con la directory giusta [3].
 C) Andate nella path /etc/apache2/ e aggiungete nel file ports.conf la porta interessata [digitando semplicemente, in una nuova riga, Listen [n.porta]]
-D) Sempre nella stessa directory, modificate anche il file apache2.conf. Andate nella parte in cui si parla delle directory - Directory /usr/share [...] - e dopo l'ultima chiusura di comando </Directory> aggiungete la nuova directory da controllare, copiando semplicemente quella di /var/www/ e modificando la directory con quella interessata. Dovrebbe venire fuori un codice tipo questo:
+D) Sempre nella stessa directory, modificate anche il file apache2.conf. Andate nella parte in cui si parla delle directory - Directory /usr/share [...] -
+e dopo l'ultima chiusura di comando </Directory> aggiungete la nuova directory da controllare, copiando semplicemente quella di /var/www/ e modificando
+la directory con quella interessata. Dovrebbe venire fuori un codice tipo questo:
   <Directory /mnt/sda/>
     Options Indexs FollowSymLinks
     AllowOverride None
