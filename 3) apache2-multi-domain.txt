@@ -38,6 +38,7 @@ la directory con quella interessata. Dovrebbe venire fuori un codice tipo questo
     AllowOverride None
     Require all granted
   </Directory>
+[D.1) se c'è qualche problema per entrare nella specifica directory, prova a fare chmod -R 775 /mnt/sda]
 E) Fatto questo, attivate il sito con a2ensite [nomedominio.com].conf e poi riavviate apache2 con systemctl restart apache2
 
 Dovrebbe funzionare tutto quanto senza troppi problemi ora con il vostro multi sito hostato come si deve e soprattutto in qualsiasi dispositivo abbiate bisongo.
