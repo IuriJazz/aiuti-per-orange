@@ -25,6 +25,11 @@ molto importante non sbagliare nulla, altrimenti non funge un tubo.
 
 ***ATTENZIONE***
 
+https://websiteforstudents.com/change-apache2-http-default-port-on-ubuntu-16-04-17-10-18-04/#:~:text=%20When%20you%E2%80%99re%20ready%20to%20make%20this%20change%2C,continue...%203%20Step%203%3A%20Restart%20Apache2%20More%20
+
+per eventuali errori:
+https://www.tecmint.com/forbidden-you-dont-have-permission-to-access-on-this-server-error/
+
 Se si vuole cambiare totalmente la directory (mettiamo esempio una chiavetta), bisogna fare qualche appunto in aggiunta.
 
 A) Innanzitutto bisogna stare molto attenti a creare lo spazio lavoro [1] nella directory interessata [esempio: /mnt/sda]
