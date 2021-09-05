@@ -1,0 +1,8 @@
+https://gioxx.org/2019/09/19/noip-auto-renewal-rpi/
+
+Questo link funziona solo per Rasberry (cosa che attualmente non ho). Quindi potrei controllare il lavoro originale che si trova:
+https://github.com/loblab/noip-renew
+
+Questo è più generico, dovrebbe funzionare.
+
+[è ancora in fase di test, per cui devo aspettare prima di capire se funziona oppure no]
