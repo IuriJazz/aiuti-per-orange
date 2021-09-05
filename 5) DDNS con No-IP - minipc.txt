@@ -17,3 +17,4 @@ puoi anche cercare sul sito ufficiale no-ip
 6) segui le istruzioni e decidi se aggiornare o meno tutti i domini
 7) avvia noip con /usr/local/bin/noip2
 8) attendi un po' e se tutto è configurato nel modo giusto, funziona!
+9) se non ne sei sicuro, fai /usr/local/bin/noip2 -S, così controlli se è in funzione o no.
