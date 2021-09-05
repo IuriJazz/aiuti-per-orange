@@ -9,15 +9,33 @@ Molto utili perchè mi hanno spiegato per bene come utilizzare apache2 per fare 
 in sostanza bisogna fare ciò:
 1) creare spazio di lavoro, tanti quanti i domini, in /var/www/[nomedominio.com]/main_html
 2) copiare il file /etc/apache2/sites-available/000-default.conf e incollarlo nella stessa cartella ma modificando il nome in [nomedominio.com].conf
-2.1) per un check lancia il codice: ls /etc/apache2/sites-available
+  2.1) per un check lancia il codice: ls /etc/apache2/sites-available
 3) modificare /etc/apache2/sites-available/[nomedominio.com].conf con una serie di dati indispensabili:
   a) ServerAdmin (lascialo invariato)
   b) ServerName [nomedominio.com]
-  c) ServerAlias www.[nomedominio.com]
-  d) DocumentRoot /var/www/[nomedominio.com]/main_html
-4) disabilitare il 000-default.conf con questo comando: a2dissite 000-default.conf
+  c) DocumentRoot /var/www/[nomedominio.com]/main_html
+  d) ricordati di modificare la porta su cui vuoi operare all'inizio del file,, dopo VirtualHost.
+4) disabilitare il 000-default.conf [non è necessario se vuoi mantenere anche quello di default] con questo comando: a2dissite 000-default.conf
 5) abilitare il .conf degli altri domini con questo comando: a2ensite [nomedominio.com].conf
 6) restartare apache2: systemctl restart apache2
 
 
 molto importante non sbagliare nulla, altrimenti non funge un tubo.
+
+
+***ATTENZIONE***
+
+Se si vuole cambiare totalmente la directory (mettiamo esempio una chiavetta), bisogna fare qualche appunto in aggiunta.
+
+A) Innanzitutto bisogna stare molto attenti a creare lo spazio lavoro [1] nella directory interessata [esempio: /mnt/sda]
+B) Nel file copiato e modificato per il dominio [2], si deve modificare anche lì con la directory giusta [3].
+C) Andate nella path /etc/apache2/ e aggiungete nel file ports.conf la porta interessata [digitando semplicemente, in una nuova riga, Listen [n.porta]]
+D) Sempre nella stessa directory, modificate anche il file apache2.conf. Andate nella parte in cui si parla delle directory - Directory /usr/share [...] - e dopo l'ultima chiusura di comando </Directory> aggiungete la nuova directory da controllare, copiando semplicemente quella di /var/www/ e modificando la directory con quella interessata. Dovrebbe venire fuori un codice tipo questo:
+  <Directory /mnt/sda/>
+    Options Indexs FollowSymLinks
+    AllowOverride None
+    Require all granted
+  </Directory>
+E) Fatto questo, attivate il sito con a2ensite [nomedominio.com].conf e poi riavviate apache2 con systemctl restart apache2
+
+Dovrebbe funzionare tutto quanto senza troppi problemi ora con il vostro multi sito hostato come si deve e soprattutto in qualsiasi dispositivo abbiate bisongo.
