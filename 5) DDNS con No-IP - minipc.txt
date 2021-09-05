@@ -1,0 +1,19 @@
+https://www.paolettopn.it/2017/10/21/installare-il-no-ip-duc-su-linux-ubuntu/
+
+puoi anche cercare sul sito ufficiale no-ip
+
+
+
+1) Creati un account no-ip
+2) Creati un dominio (o 3, tanto son gratuiti tutti e 3)
+3) Imposta le porte che ti interessano basandoti sul tuo ip (nelle impostazioni di ogni dominio).
+4) Installa il DUC di No-Ip sul minipc, come? ecco:
+  a) cd /usr/local/src/
+  b) wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz
+  c) tar xf noip-duc-linux.tar.gz
+  d) cd noip-2.1.9-1/
+  e) make install
+5) dopo averlo installato dobbiamo configurarlo con i dati dell'account creato in precedenza: /usr/local/bin/noip2 -C
+6) segui le istruzioni e decidi se aggiornare o meno tutti i domini
+7) avvia noip con /usr/local/bin/noip2
+8) attendi un po' e se tutto è configurato nel modo giusto, funziona!
