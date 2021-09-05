@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/36882991/how-to-view-a-cron-job-running-currently
+
+per vedere tutti i processi eseguiti esegui questo comando:
+grep CRON /var/log/syslog
+
+
+Ti mostrerà tutte le cose eseguite da cron.
