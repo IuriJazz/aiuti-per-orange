@@ -1,0 +1,8 @@
+https://help.ubuntu.com/community/rsync
+https://askubuntu.com/questions/147234/how-to-automatically-archive-a-directory
+https://www.bing.com/search?q=ubuntu+server+can+I+automatically+copy+usb+1+to+usb+2&cvid=f08289de908e4107a0533d4518c304de&aqs=edge..69i57.21399j0j1&pglt=2083&FORM=ANNTA1&PC=NMTS
+https://www.bing.com/search?q=ubuntu+server+rsync&cvid=35a17f301b0742ab9c49b206290c6e0e&aqs=edge..69i57j0.4378j0j1&pglt=2083&FORM=ANNTA1&PC=NMTS
+
+Questa è una soluzione per creare dei backup in automatico su ubuntu server
+
+[devo scrivere la guida]
