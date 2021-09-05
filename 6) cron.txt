@@ -5,3 +5,10 @@ grep CRON /var/log/syslog
 
 
 Ti mostrerà tutte le cose eseguite da cron.
+
+
+
+https://crontab-generator.org/
+
+Questo genera la cronjob che ti serve, da scrivere e aggiungere alla fine del file che viene fuori eseguendo:
+crontab -e
