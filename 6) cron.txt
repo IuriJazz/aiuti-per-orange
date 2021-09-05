@@ -12,3 +12,8 @@ https://crontab-generator.org/
 
 Questo genera la cronjob che ti serve, da scrivere e aggiungere alla fine del file che viene fuori eseguendo:
 crontab -e
+
+
+
+Se viene fuori il problema - No MTA installed, discarding output - puoi risolvere in questa maniera semplice.
+aggiungi alla fine della tua cronjob un posto dove sarà messo un output del comando inviato.
