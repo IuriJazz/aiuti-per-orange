@@ -41,3 +41,4 @@ la directory con quella interessata. Dovrebbe venire fuori un codice tipo questo
 E) Fatto questo, attivate il sito con a2ensite [nomedominio.com].conf e poi riavviate apache2 con systemctl restart apache2
 
 Dovrebbe funzionare tutto quanto senza troppi problemi ora con il vostro multi sito hostato come si deve e soprattutto in qualsiasi dispositivo abbiate bisongo.
+Ricordatevi di aprire le porte sul vostro router!
