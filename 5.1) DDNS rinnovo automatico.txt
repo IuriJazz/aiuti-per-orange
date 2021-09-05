@@ -6,3 +6,12 @@ https://github.com/loblab/noip-renew
 Questo è più generico, dovrebbe funzionare.
 
 [è ancora in fase di test, per cui devo aspettare prima di capire se funziona oppure no]
+
+
+
+
+[devo studiare i seguenti]
+
+https://www.bing.com/search?q=ubuntu+ddupdate&cvid=fb9073a83dbb4c92817130eb765eecb6&aqs=edge..69i57.5008j0j1&pglt=2083&FORM=ANNTA1&PC=NMTS
+https://troglobit.com/projects/inadyn/
+https://github.com/loblab/noip-renew
