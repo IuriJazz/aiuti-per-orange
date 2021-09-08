@@ -1,0 +1,10 @@
+https://www.cyberciti.biz/faq/how-to-find-my-public-ip-address-from-command-line-on-a-linux/
+https://www.bing.com/search?q=python3+how+to+read+.txt&qs=n&form=QBRE&sp=-1&pq=python3+how+to+read+.txt&sc=0-24&sk=&cvid=E0F9415DE8F642C2A948F38014666D6D
+https://www.pythontutorial.net/python-basics/python-read-text-file/
+https://unix.stackexchange.com/questions/533156/using-python-in-a-bash-script
+https://geekflare.com/python-run-bash/
+https://stackoverflow.com/questions/45507488/how-to-use-python-3-6-interpreter-inside-a-bash-script
+
+Voglio integrare bin e python3 per recuperare un ip pubblico e mandarlo su un bot telegram
+
+[scrivi guida]
