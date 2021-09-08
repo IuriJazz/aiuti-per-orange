@@ -5,4 +5,11 @@ https://www.bing.com/search?q=ubuntu+server+rsync&cvid=35a17f301b0742ab9c49b2062
 
 Questa è una soluzione per creare dei backup in automatico su ubuntu server
 
-[devo scrivere la guida]
+
+Per sincronizzare due directory è facile! usa questo:
+sudo rsync -az /path_to/A /path_to/B
+
+dove a sta per: archivio = mantiene il creatore e i permessi, tutte le cartelle e ogni cosa.
+dove z sta per: compresso = cerca di ottimizzare gli spazi.
+
+fatto questo, semplicemente crea una crontab che faccia il lavoro per te ed il gioco è fatto!
