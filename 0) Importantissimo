@@ -43,3 +43,9 @@ https://unix.stackexchange.com/questions/481774/creating-100-files
 Con questo, puoi creare dei tipi di file con l'estensione che vuoi per poter fare dei test (tipo backup o altro)
 touch /directory/{1..100}.[formato] --> es. touch /home/backup1/test{1...100}.txt
 Con l'es. abbiamo creato 100 file.txt vuoti
+
+
+
+https://www.hepeng.me/changing-username-and-hostname-on-ubuntu/#:~:text=Change%20the%20username%20and%20the%20home%20folder%20to,name%20to%20the%20new%20name%20that%20you%20want.
+
+molte info utili riguardanti piccolezze su ubuntu server.
