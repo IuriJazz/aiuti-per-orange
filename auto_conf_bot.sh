@@ -19,9 +19,6 @@ pip3 install --upgrade --no-cache-dir requests
 pip3 install --upgrade --no-cache-dir telegraph
 
 
-# chmod -R 777 /media/nas ; chown -R root:root /media/nas
-# chmod -R 700 /usr/local/bin/noip2; chown root:root /usr/local/bin/noip2
-
 #######################################################
         #! /bin/sh
         # . /etc/rc.d/init.d/functions  # uncomment/modify for your killproc
