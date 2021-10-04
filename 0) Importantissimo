@@ -49,3 +49,13 @@ Con l'es. abbiamo creato 100 file.txt vuoti
 https://www.hepeng.me/changing-username-and-hostname-on-ubuntu/#:~:text=Change%20the%20username%20and%20the%20home%20folder%20to,name%20to%20the%20new%20name%20that%20you%20want.
 
 molte info utili riguardanti piccolezze su ubuntu server.
+
+
+
+
+
+https://vitux.com/how-to-hide-a-file-or-folder-in-ubuntu/
+
+Con questo ho imparato come si può nascondere un file o una cartella:
+mv [nomefile/cartella] .[nomefile/cartella]
+per visualizzare se ci sono file nascosti basta digitare: ls -al
