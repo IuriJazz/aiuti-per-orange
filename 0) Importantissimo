@@ -59,3 +59,16 @@ https://vitux.com/how-to-hide-a-file-or-folder-in-ubuntu/
 Con questo ho imparato come si può nascondere un file o una cartella:
 mv [nomefile/cartella] .[nomefile/cartella]
 per visualizzare se ci sono file nascosti basta digitare: ls -al
+
+
+
+
+
+
+https://www.2daygeek.com/how-to-kill-user-sessions-on-linux/
+Con questo si può killare altri processi (magari sessioni che non ho potuto chiudere)
+
+1) lancia: who -u - ti da una lista degli username collegati
+2) lancia: pkill -9 -t pst/n - ti killa istantaneamente le altre sessioni
+
+
