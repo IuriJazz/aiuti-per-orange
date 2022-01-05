@@ -23,5 +23,14 @@ PERMANENTE (leggermente più complesso):
 
 - per poter impostarlo che funzioni sempre anche quando si riaccende il dispositivo, bisogna cambiare un file:
   a) nano ~/.bashrc
-  b) vai sul fondo e aggiungi il tuo alias come quello temporaneo seguendo le funzioni come sopra - alias [nome_alias]='{comando/i_necessario/i}
+  b) vai sul fondo e aggiungi il tuo alias come quello temporaneo seguendo le funzioni come sopra - alias [nome_alias]='{comando/i_necessario/i}'
+  c) ti consiglio di leggere il [trucchetto]
 - riavvia il dispositivo e hai finito! ora hai il tuo nuovo alias!
+
+[trucchetto]
+se vuoi, aggiungici anche questo come alias...
+
+alias [nome_alias]='source ~/.bashrc'
+
+così, dopo questo alias, quando avrai bisogno di vedere se l'alias funzinoa, lo richiami e in automatico, senza reboot, potrai avere i tuoi alias disponibili fin da subito!
+{ricordati però che alla prima aggiunta di alias devi per forza riavviare il dispositivo}
