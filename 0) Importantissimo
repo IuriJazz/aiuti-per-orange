@@ -72,3 +72,9 @@ Con questo si può killare altri processi (magari sessioni che non ho potuto chi
 2) lancia: pkill -9 -t pst/n - ti killa istantaneamente le altre sessioni
 
 
+
+
+
+https://linuxaria.com/pills/linux-terminal-the-tee-command?lang=it
+
+Tee command -> Pare interessante, devo studiarlo
