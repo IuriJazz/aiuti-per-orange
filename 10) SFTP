@@ -1,0 +1,19 @@
+https://linuxize.com/post/how-to-use-linux-sftp-command-to-transfer-files/#:~:text=How%20to%20Use%20SFTP%20Command%20to%20Transfer%20Files,commands%2C%20type%20help%2C%20or%20%3F.%20Pi%C3%B9%20articoli...%20
+
+
+Questo comando "SFTP", è utilissimo.
+
+Se ssh serve per collegarsi al terminale di qualche computer (lan/internet), SFTP server per fare una cosa simile ma con la possibilità di scaricare e/o caricare i file.
+
+è utilissimo e si usa alla stessa maniera di ssh:
+
+- ssh user@address
+- sftp user@address
+
+usano anche i comandi simili, come CD per muoversi tra le cartelle.
+
+un comando utilissimo è PUT, che in sostanza prende, dalla cartella in cui sei, un file desiderato e poi lo mette nella directory desiderata nel server/computer desiderato.
+
+molto utile per caricare e scaricare i file senza difficoltà.
+
+Per tutti i comandi devo finire di leggere, studiare e provare tutto quando dal link postato all'inizio.
