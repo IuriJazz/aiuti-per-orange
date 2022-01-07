@@ -86,3 +86,10 @@ https://noviello.it/come-reindirizzare-stderr-a-stdout-in-un-file-con-bash-su-li
 https://www.howtogeek.com/435903/what-are-stdin-stdout-and-stderr-on-linux/
 
 stdin, stdout, stderr, cosa sono e a cosa servono. Molto utile per alcuni script e simili.
+
+
+
+
+
+https://www.tecmint.com/13-basic-cat-command-examples-in-linux/#:~:text=The%20cat%20%28short%20for%20%E2%80%9C%20concatenate%20%E2%80%9C%29%20command,files%20and%20redirect%20output%20in%20terminal%20or%20files.
+CAT command - interessante per leggere i file senza usare nano. Devo studiarlo meglio.
