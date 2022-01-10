@@ -1,0 +1,26 @@
+https://unix.stackexchange.com/questions/24026/how-to-run-a-command-when-a-directorys-contents-are-updated
+https://linux.die.net/man/1/inotifywait
+https://stackoverflow.com/questions/4060212/how-to-run-a-shell-script-when-a-file-or-directory-changes
+https://www.google.it/search?q=entr+command+linux&sxsrf=AOaemvJaBjJCDW2zJb1_wanp-UrikOoMyw%3A1638213891891&ei=AymlYaPnNYGUsAf6urnoAQ&ved=0ahUKEwjj9N2opr70AhUBCuwKHXpdDh0Q4dUDCA4&uact=5&oq=entr+command+linux&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEBMyCAgAEBYQHhATMgoIABANEAUQHhATMgoIABAIEA0QHhATMgoIABAIEA0QHhATMgoIABAIEA0QHhATMgwIABAIEA0QChAeEBMyCggAEAgQDRAeEBMyCggAEAgQDRAeEBMyCggAEAgQDRAeEBM6BwgAEEcQsAM6BggjECcQEzoFCAAQgAQ6BQgAEMsBOgcIIxDqAhAnOgQIIxAnOhEILhCABBCxAxCDARDHARDRAzoRCC4QgAQQsQMQgwEQxwEQowI6CAguELEDEIMBOg4ILhCABBCxAxDHARDRAzoICAAQgAQQsQM6DgguEIAEELEDEMcBEKMCOgsIABCABBCxAxCDAToICAAQsQMQgwE6BAgAEEM6CAguEIAEELEDOgcIABCABBAKOhAILhCxAxCDARDHARDRAxAKOgQIABAKOgcIABCxAxAKOgYIABAWEB46CAgAEBYQChAeOgQIABANOgYIABANEB5KBAhBGABQqglYquUBYM3yAWgEcAJ4A4AB1wGIAfIWkgEHMTEuMTUuMZgBAKABAbABCsgBCMABAQ&sclient=gws-wiz
+
+Molto molto molto interessante.
+
+Installazione easy:
+- sudo apt install inotify-tools -y
+
+Impostazione ancor più easy:
+- crea uno script (.sh e via vicendo);
+- aggiungici la condizione "while" e fai una cosa di questo tipo:
+
+#|/bin/bash
+dir=/dir/to/see/
+while inotifywait -e move "$dir"; do
+        /dir/of/script/[name_of_script].sh
+done
+
+- done per davvero!
+
+ora, ci sono da mettere un po' di cose dopo inotify, ad esempio con -e possiamo aggiungere una serie di condizioni in cui deve avvenire qualcosa.
+Come quando si muove dalla cartella, si muove verso la cartella, si crea, si elimina qualsiasi tipo di file.
+
+Le varie condizioni le puoi trovare sul secondo link sopra.
