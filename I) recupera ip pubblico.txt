@@ -7,4 +7,4 @@ https://stackoverflow.com/questions/45507488/how-to-use-python-3-6-interpreter-i
 
 Voglio integrare bin e python3 per recuperare un ip pubblico e mandarlo su un bot telegram
 
-[scrivi guida]
+[scrivi guida, ci sono riuscito]
