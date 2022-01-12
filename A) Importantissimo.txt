@@ -93,3 +93,17 @@ stdin, stdout, stderr, cosa sono e a cosa servono. Molto utile per alcuni script
 
 https://www.tecmint.com/13-basic-cat-command-examples-in-linux/#:~:text=The%20cat%20%28short%20for%20%E2%80%9C%20concatenate%20%E2%80%9C%29%20command,files%20and%20redirect%20output%20in%20terminal%20or%20files.
 CAT command - interessante per leggere i file senza usare nano. Devo studiarlo meglio.
+
+
+
+
+https://linuxize.com/post/how-to-check-your-ubuntu-version/#:~:text=Open%20your%20terminal%20either%20by,to%20display%20the%20Ubuntu%20version.&text=Your%20Ubuntu%20version%20will%20be,am%20using%20Ubuntu%2018.04%20LTS.
+
+facile e indolore: vuoi sapere che versione di linux stai usando?
+ci sono varie maniere per farlo:
+
+1) lsb_release -a
+2) lsb_release -d | ha meno dettagli, ma dice la versione corrente
+3) cat /etc/issue
+4) cat /etc/os-release | molto dettagliato
+5) hostnamectl
