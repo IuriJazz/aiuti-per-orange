@@ -107,3 +107,11 @@ ci sono varie maniere per farlo:
 3) cat /etc/issue
 4) cat /etc/os-release | molto dettagliato
 5) hostnamectl
+
+
+
+https://www.cloudbooklet.com/find-directory-size-in-ubuntu-debian/
+
+qui puoi vedere come trovare la grandezza di una qualsiasi cartella su ubuntu-server!
+du -sh directory/
+questo qui sopra è il modo più semplice.
