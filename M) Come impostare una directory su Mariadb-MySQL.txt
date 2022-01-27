@@ -1,4 +1,5 @@
 https://asvignesh.in/change-the-data-directory-of-mysql-maria-database-server/
+https://www.tecmint.com/change-default-mysql-mariadb-data-directory-in-linux/
 
 
 Utilissimo, non troppo complesso ma serve un po' di pazienza.
