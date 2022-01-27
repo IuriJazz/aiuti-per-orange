@@ -1,0 +1,5 @@
+https://asvignesh.in/change-the-data-directory-of-mysql-maria-database-server/
+
+
+Utilissimo, non troppo complesso ma serve un po' di pazienza.
+[devo farlo]
