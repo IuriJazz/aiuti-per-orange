@@ -16,7 +16,7 @@ Questi sono tutti i modi in cui possiamo utilizzare un alias.
 TEMPORANEO:
 
 - semplicemente imposta il tuo alias! [attento però, è solo temporaneo!]
-  - alias [nome_alias]='{comando/i_necessario/i}
+  - alias [nome_alias]='{comando/i_necessario/i}'
   
   
 PERMANENTE (leggermente più complesso):
