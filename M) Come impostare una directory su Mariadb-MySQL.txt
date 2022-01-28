@@ -4,3 +4,8 @@ https://www.tecmint.com/change-default-mysql-mariadb-data-directory-in-linux/
 
 Utilissimo, non troppo complesso ma serve un po' di pazienza.
 [devo farlo]
+
+
+Bisogna stare attenti a dare le giuste proprietà dei database ai vari username del server
+
+https://mariadb.com/kb/it/create-user/
