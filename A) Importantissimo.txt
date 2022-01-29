@@ -115,3 +115,32 @@ https://www.cloudbooklet.com/find-directory-size-in-ubuntu-debian/
 qui puoi vedere come trovare la grandezza di una qualsiasi cartella su ubuntu-server!
 du -sh directory/
 questo qui sopra è il modo più semplice.
+
+
+
+
+
+https://askubuntu.com/questions/62858/turn-off-monitor-using-command-line
+
+ssh -X iurijazz@192.168.1.5 "xset -display :0.0 dpms force off
+ssh -X iurijazz@192.168.1.5 "xset -display :0.0 dpms force on
+
+Semplice e diretto, se lanci questo comando (molto comodo tramite alias per esempio) puoi spegnere e/o accendere lo schermo del computer, che in questo caso si trova all'indirizzo ip 192.168.1.5 Può esser tranquillamente quel che vuoi.
+
+
+
+
+https://askubuntu.com/questions/47642/how-to-start-a-gui-software-on-a-remote-linux-pc-via-ssh
+
+ssh -X iurijazz@192.168.1.5 "DISPLAY=:0 nohup firefox"
+
+anche questo è carino, avvia un'app dove vuoi tu, quando vuoi tu, su un pc che vuoi tu!
+
+
+
+
+
+https://www.cyberciti.biz/faq/how-to-check-running-process-in-ubuntu-linux-using-command-line/
+
+Utile per vedere processi e simili
+[fai guida]
