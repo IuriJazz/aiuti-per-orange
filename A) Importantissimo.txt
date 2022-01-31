@@ -144,3 +144,9 @@ https://www.cyberciti.biz/faq/how-to-check-running-process-in-ubuntu-linux-using
 
 Utile per vedere processi e simili
 [fai guida]
+
+
+
+https://serverfault.com/questions/241588/how-to-automate-ssh-login-with-password
+
+ssh senza inserire ogni volta la password [poco sicuro e raccomandato]
