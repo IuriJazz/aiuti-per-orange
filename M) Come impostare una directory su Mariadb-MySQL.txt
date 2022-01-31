@@ -9,3 +9,5 @@ Utilissimo, non troppo complesso ma serve un po' di pazienza.
 Bisogna stare attenti a dare le giuste proprietà dei database ai vari username del server
 
 https://mariadb.com/kb/it/create-user/
+https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges
+
