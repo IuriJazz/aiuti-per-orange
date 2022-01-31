@@ -15,6 +15,8 @@ procedi così:
 - ps aux | grep [USERNAME] --> ti vengono fuori tutti i processi (che volendo puoi chiudere con kill)
 - fai logout (e finalmente)
 
+[ps manda tutti i pid attivi con l'attuale username...utilissimo!]
+
 
 
 https://askubuntu.com/questions/433470/how-to-show-the-full-path-of-a-file-or-directory-in-the-terminal
