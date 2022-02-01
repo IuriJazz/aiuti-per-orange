@@ -159,3 +159,12 @@ Utile per vedere processi e simili
 https://serverfault.com/questions/241588/how-to-automate-ssh-login-with-password
 
 ssh senza inserire ogni volta la password [poco sicuro e raccomandato]
+
+
+
+https://askubuntu.com/questions/22021/how-to-log-cpu-load
+https://phoenixnap.com/kb/check-cpu-usage-load-linux
+https://serverfault.com/questions/122697/check-history-of-cpu-memory-usage-in-ubuntu
+
+sar -u 1
+check ogni secondo utilizzo cpu, molto comodo
