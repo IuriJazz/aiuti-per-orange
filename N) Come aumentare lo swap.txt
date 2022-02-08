@@ -1,0 +1,6 @@
+https://linuxhandbook.com/increase-swap-ubuntu/
+https://itsfoss.com/create-swap-file-linux/
+https://www.tutorialspoint.com/how-to-increase-swap-space-on-linux-ubuntu
+https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-18-04/
+
+[da fare]
