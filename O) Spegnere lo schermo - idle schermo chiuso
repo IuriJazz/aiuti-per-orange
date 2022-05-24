@@ -1,0 +1,19 @@
+https://askubuntu.com/questions/62858/turn-off-monitor-using-command-line
+
+ssh -X iurijazz@192.168.1.5 "xset -display :0.0 dpms force off
+ssh -X iurijazz@192.168.1.5 "xset -display :0.0 dpms force on
+
+Semplice e diretto, se lanci questo comando (molto comodo tramite alias per esempio) puoi spegnere e/o accendere lo schermo del computer,
+che in questo caso si trova all'indirizzo ip 192.168.1.5 Può esser tranquillamente quel che vuoi.
+
+
+
+https://leochavez.org/index.php/2019/05/15/prevent-sleep-on-lid-close-in-the-fedora-30-terminal/
+
+Oppure questo, molto interessante, con voci diverse per cose diverse, tramite Fedora Server, ti permette di
+disattivare il lock automatico alla chiusura dello schermo di un computer portatile, tramite i seguenti codici:
+
+- "sudo [editor di testo come nano/vi] /etc/systemd/logind.conf"
+- trova la riga in cui c'è scritto "HandleLidSwitch=ignore" (se c'è scritto altro, cancella e scrivici ignore) e cancella il cancelletto #
+- "sudo systemctl restart systemd-logind" per riavviare il servizio e quindi rendere attiva la modifica
+- congratulazioni, puoi chiudere il tuo schermo senza preoccuparti di disattivare l'intero computer! Comodo per i laptop che vuoi utilizzare come server
