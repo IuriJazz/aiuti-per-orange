@@ -158,3 +158,8 @@ https://serverfault.com/questions/122697/check-history-of-cpu-memory-usage-in-ub
 
 sar -u 1
 check ogni secondo utilizzo cpu, molto comodo
+
+
+https://itsfoss.com/things-to-do-after-installing-fedora/
+
+molto utile per fedora-server
