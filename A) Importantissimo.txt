@@ -163,3 +163,9 @@ check ogni secondo utilizzo cpu, molto comodo
 https://itsfoss.com/things-to-do-after-installing-fedora/
 
 molto utile per fedora-server
+
+
+
+https://stackoverflow.com/questions/5551301/clone-mysql-database
+
+come clonare un database, non male come cosa
