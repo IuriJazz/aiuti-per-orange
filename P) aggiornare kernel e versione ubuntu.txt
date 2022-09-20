@@ -1,0 +1,20 @@
+https://forum.armbian.com/topic/19237-armbian-upgrade-from-buster-to-bullseye/
+
+
+
+I now did the update to bullseye. Worked without problem like described by Heisath. Here is what I did in detail:
+# apt update
+# apt upgrade
+# nano /etc/apt/sources.list.d/armbian.list    ->  comment out the armbian repo
+# nano /etc/apt/sources.list                           ->  change from buster to bullseye
+
+# apt update
+# apt upgrade --without-new-pkgs
+# apt full-upgrade
+# reboot
+
+# nano /etc/apt/sources.list.d/armbian.list   -> reenable armbian repo
+# apt update
+# apt upgrade
+
+così facendo dovresti riuscire ad aggiornare perfettamente qualsiasi minipc
