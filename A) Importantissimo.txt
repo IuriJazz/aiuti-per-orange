@@ -30,6 +30,13 @@ https://askubuntu.com/questions/433470/how-to-show-the-full-path-of-a-file-or-di
 
 Se hai bisogno di sapere la path assoluta di dove sei, devi semplicemente digitare:
 pwd
+oppure
+pwd -L
+ma ti farà vedere dove sei effettivamente (ad esempio se è un link ti mostrerà dove si trova il link)
+
+se invece sei in un link di non sai dove, usa: pwd -P
+ti permetterà di vedere il percorso assoluto della cartella in cui sei
+
 
 
 
