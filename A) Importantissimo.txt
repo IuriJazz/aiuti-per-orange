@@ -169,3 +169,8 @@ molto utile per fedora-server
 https://stackoverflow.com/questions/5551301/clone-mysql-database
 
 come clonare un database, non male come cosa
+
+
+https://linuxhint.com/create_symbolic_link_ubuntu/
+
+come creare i collegamenti a cartelle e file tramite linea di comando. Magnifico
