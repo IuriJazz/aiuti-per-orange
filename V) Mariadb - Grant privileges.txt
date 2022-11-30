@@ -1,0 +1,9 @@
+https://chartio.com/resources/tutorials/how-to-grant-all-privileges-on-a-database-in-mysql/
+
+GRANT ALL PRIVILEGES ON *.* TO 'tolkien'@'%';
+
+
+
+https://phoenixnap.com/kb/how-to-create-mariadb-user-grant-privileges
+
+GRANT ALL PRIVILEGES ON *.* TO 'user1'@localhost IDENTIFIED BY 'password1';
