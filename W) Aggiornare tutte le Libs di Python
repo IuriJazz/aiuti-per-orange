@@ -1,0 +1,11 @@
+https://pythonhow.com/how/upgrade-all-python-packages-with-pip/#:~:text=To%20upgrade%20all%20the%20Python,installs%20or%20upgrades%20a%20package.
+
+Come fare l'upgrade di tutte le librerie di Python
+
+# first, use the pip freeze command to generate a list of installed packages
+pip freeze > requirements.txt
+
+# next, use the pip install command to upgrade all the packages in the list
+pip install -r requirements.txt --upgrade 
+
+molto comodo, semplice e facile da fare.
