@@ -1,0 +1,9 @@
+https://forum.armbian.com/topic/26494-guide-how-to-get-the-official-orange-pi-5-wifi-m2-module-working-in-armbian-and-orange-pi-os/
+https://forum.armbian.com/topic/29096-orange-pi-5b-ap6275p-built-in-wifi-module-completely-lost/
+
+- installa l'OS
+- apri e scrivi con sudo: sudo nano /boot/orangepiEnv.txt
+  . oppure ci sono anche le alternative: /boot/framework/ubuntuEnv.txt
+  . cerca assolutamente il file *Env.txt
+- nel file aperto aggiungici: overlays=orangepi-5-ap6275p
+- reboot
